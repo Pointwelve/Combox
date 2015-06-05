@@ -10,6 +10,11 @@
 		6D0D216A1B215E26008F73FC /* Combox.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D0D21691B215E26008F73FC /* Combox.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D0D21701B215E26008F73FC /* Combox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D0D21641B215E26008F73FC /* Combox.framework */; };
 		6D0D21771B215E26008F73FC /* ComboxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0D21761B215E26008F73FC /* ComboxTests.m */; };
+		6D0D21841B215E31008F73FC /* ComboxView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D0D21801B215E31008F73FC /* ComboxView.h */; };
+		6D0D21851B215E31008F73FC /* ComboxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0D21811B215E31008F73FC /* ComboxView.m */; };
+		6D0D21861B215E31008F73FC /* ComboxContainerScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D0D21821B215E31008F73FC /* ComboxContainerScrollView.h */; };
+		6D0D21871B215E31008F73FC /* ComboxContainerScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0D21831B215E31008F73FC /* ComboxContainerScrollView.m */; };
+		8CD27F083B077A783FCA17D2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8CD27522D4D1FA06A1854613 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +34,11 @@
 		6D0D216F1B215E26008F73FC /* ComboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D0D21751B215E26008F73FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D0D21761B215E26008F73FC /* ComboxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComboxTests.m; sourceTree = "<group>"; };
+		6D0D21801B215E31008F73FC /* ComboxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComboxView.h; sourceTree = "<group>"; };
+		6D0D21811B215E31008F73FC /* ComboxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComboxView.m; sourceTree = "<group>"; };
+		6D0D21821B215E31008F73FC /* ComboxContainerScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComboxContainerScrollView.h; sourceTree = "<group>"; };
+		6D0D21831B215E31008F73FC /* ComboxContainerScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComboxContainerScrollView.m; sourceTree = "<group>"; };
+		8CD27522D4D1FA06A1854613 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 				6D0D21661B215E26008F73FC /* Combox */,
 				6D0D21731B215E26008F73FC /* ComboxTests */,
 				6D0D21651B215E26008F73FC /* Products */,
+				8CD27522D4D1FA06A1854613 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +82,10 @@
 		6D0D21661B215E26008F73FC /* Combox */ = {
 			isa = PBXGroup;
 			children = (
+				6D0D21801B215E31008F73FC /* ComboxView.h */,
+				6D0D21811B215E31008F73FC /* ComboxView.m */,
+				6D0D21821B215E31008F73FC /* ComboxContainerScrollView.h */,
+				6D0D21831B215E31008F73FC /* ComboxContainerScrollView.m */,
 				6D0D21691B215E26008F73FC /* Combox.h */,
 				6D0D21671B215E26008F73FC /* Supporting Files */,
 			);
@@ -109,7 +124,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D0D21841B215E31008F73FC /* ComboxView.h in Headers */,
 				6D0D216A1B215E26008F73FC /* Combox.h in Headers */,
+				6D0D21861B215E31008F73FC /* ComboxContainerScrollView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +209,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CD27F083B077A783FCA17D2 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +227,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D0D21871B215E31008F73FC /* ComboxContainerScrollView.m in Sources */,
+				6D0D21851B215E31008F73FC /* ComboxView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
