@@ -418,6 +418,7 @@
 				6D0D217C1B215E26008F73FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D0D217D1B215E26008F73FC /* Build configuration list for PBXNativeTarget "ComboxTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +427,7 @@
 				6D0D217F1B215E26008F73FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
