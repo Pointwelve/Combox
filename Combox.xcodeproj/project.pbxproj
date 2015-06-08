@@ -10,9 +10,9 @@
 		6D0D216A1B215E26008F73FC /* Combox.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D0D21691B215E26008F73FC /* Combox.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D0D21701B215E26008F73FC /* Combox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D0D21641B215E26008F73FC /* Combox.framework */; };
 		6D0D21771B215E26008F73FC /* ComboxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0D21761B215E26008F73FC /* ComboxTests.m */; };
-		6D0D21841B215E31008F73FC /* ComboxView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D0D21801B215E31008F73FC /* ComboxView.h */; };
+		6D0D21841B215E31008F73FC /* ComboxView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D0D21801B215E31008F73FC /* ComboxView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D0D21851B215E31008F73FC /* ComboxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0D21811B215E31008F73FC /* ComboxView.m */; };
-		6D0D21861B215E31008F73FC /* ComboxContainerScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D0D21821B215E31008F73FC /* ComboxContainerScrollView.h */; };
+		6D0D21861B215E31008F73FC /* ComboxContainerScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D0D21821B215E31008F73FC /* ComboxContainerScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D0D21871B215E31008F73FC /* ComboxContainerScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0D21831B215E31008F73FC /* ComboxContainerScrollView.m */; };
 		8CD27F083B077A783FCA17D2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8CD27522D4D1FA06A1854613 /* README.md */; };
 /* End PBXBuildFile section */
@@ -125,8 +125,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D0D21841B215E31008F73FC /* ComboxView.h in Headers */,
-				6D0D216A1B215E26008F73FC /* Combox.h in Headers */,
 				6D0D21861B215E31008F73FC /* ComboxContainerScrollView.h in Headers */,
+				6D0D216A1B215E26008F73FC /* Combox.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

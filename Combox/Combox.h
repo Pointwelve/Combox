@@ -17,4 +17,4 @@ FOUNDATION_EXPORT const unsigned char ComboxVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <Combox/PublicHeader.h>
 
 #import <Combox/ComboxView.h>
-#import <Combox/ComboxContainerScrollView.h.h>
+#import <Combox/ComboxContainerScrollView.h>
