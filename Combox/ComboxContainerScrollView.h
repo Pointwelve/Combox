@@ -10,6 +10,6 @@
 
 @interface ComboxContainerScrollView : UIScrollView
 
--(void)closeAllTheComBoxView;
+- (void)closeAllComboxView;
 
 @end

@@ -21,7 +21,7 @@
     return self;
 }
 
-- (void)closeAllTheComBoxView
+- (void)closeAllComboxView
 {
     for (UIView *subView in self.subviews) {
         if ([subView isKindOfClass:[ComboxView class]]) {
@@ -34,7 +34,7 @@
                 }                completion:^(BOOL finished) {
                     [combox.listTable removeFromSuperview];
                     combox.isOpen = NO;
-                    combox.arrow.transform = CGAffineTransformRotate(combox.arrow.transform, DEGREES_TO_RADIANS(180));
+                    combox.arrow.transform = CGAffineTransformRotate(combox.arrow.transform, (CGFloat) DEGREES_TO_RADIANS(180));
                 }];
             }
         }
@@ -43,7 +43,7 @@
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
-    [self closeAllTheComBoxView];
+    [self closeAllComboxView];
 }
 
 

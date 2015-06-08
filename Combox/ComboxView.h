@@ -8,6 +8,7 @@
 
 
 #import <UIKit/UIKit.h>
+
 #define imgW 10
 #define imgH 10
 #define tableH 150
@@ -16,29 +17,33 @@
 #define kTextColor   [UIColor darkGrayColor]
 
 @class ComboxView;
-@protocol LMComBoxViewDelegate <NSObject>
 
--(void)selectAtIndex:(NSInteger)index inCombox:(ComboxView *)_combox;
+@protocol ComboxViewDelegate <NSObject>
+
+- (void)selectAtIndex:(NSInteger)index
+             inCombox:(ComboxView *)combox;
 
 @end
 
-@interface ComboxView : UIView<UITableViewDataSource,UITableViewDelegate>
-{
+@interface ComboxView : UIView <UITableViewDataSource, UITableViewDelegate> {
     UILabel *titleLabel;
 }
-@property(nonatomic,assign)BOOL isOpen;
-@property(nonatomic,strong)UITableView *listTable;
-@property(nonatomic,strong)NSMutableArray *titlesList;
-@property(nonatomic,assign)int defaultIndex;
-@property(nonatomic,assign)float tableHeight;
-@property(nonatomic,strong)UIImageView *arrow;
-@property(nonatomic,copy)NSString *arrowImgName;//箭头图标名称
-@property(nonatomic,assign)id<LMComBoxViewDelegate>delegate;
-@property(nonatomic,strong)UIView *supView;
+@property(nonatomic, assign) BOOL isOpen;
+@property(nonatomic, strong) UITableView *listTable;
+@property(nonatomic, strong) NSMutableArray *titlesList;
+@property(nonatomic, assign) int defaultIndex;
+@property(nonatomic, assign) float tableHeight;
+@property(nonatomic, strong) UIImageView *arrow;
+@property(nonatomic, copy) NSString *arrowImgName;
+@property(nonatomic, assign) id <ComboxViewDelegate> delegate;
+@property(nonatomic, strong) UIView *supView;
 
--(void)defaultSettings;
--(void)reloadData;
--(void)closeOtherCombox;
--(void)tapAction;
+- (void)defaultSettings;
+
+- (void)reloadData;
+
+- (void)closeOtherCombox;
+
+- (void)tapAction;
 
 @end
